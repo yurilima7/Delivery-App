@@ -124,7 +124,7 @@ class _ProductDetailPageState extends BaseState<ProductDetailPage, ProductDetail
             children: [
               Container(
                 height: 68,
-                width: context.percentWith(.5),
+                width: context.percentWidth(.5),
                 padding: const EdgeInsets.all(8),
 
                 child: BlocBuilder<ProductDetailController, int>(
@@ -137,7 +137,7 @@ class _ProductDetailPageState extends BaseState<ProductDetailPage, ProductDetail
               ),
 
               Container(
-                width: context.percentWith(.5),
+                width: context.percentWidth(.5),
                 height: 68,
                 padding: const EdgeInsets.all(8.0),
 

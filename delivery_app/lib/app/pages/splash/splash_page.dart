@@ -37,7 +37,7 @@ class SplashPage extends StatelessWidget {
                     height: 80,
                   ),
                   DeliveryButton(
-                    width: context.percentWith(.6),
+                    width: context.percentWidth(.6),
                     height: 35,
                     label: 'Acessar',
                     onPressed: () {
